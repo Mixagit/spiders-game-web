@@ -1,70 +1,71 @@
 #canvasId {
-    border: 1px solid black;
+	border: 1px solid black;
 }
-html, body {
-    height: 100%;
-    margin: 0;
+html,
+body {
+	height: 100%;
+	margin: 0;
 }
 body {
-    /*background: black;*/
-    background: url(../assets/images/background_spider_web.jpg);
+	/*background: black;*/
+	background: url(../assets/images/background_spider_web.jpg);
 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .window {
-    text-align: center;
+	text-align: center;
 }
 .window h1 {
-    font-size: 50px;
-    color:white;
-    margin-bottom: 0;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 0;
 }
 h1 {
-    color:white;
-    margin-bottom: 0;
+	color: white;
+	margin-bottom: 0;
 }
 p {
-    color:white;
+	color: white;
 }
 
 #enter-username {
-    font-size: 32px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+	font-size: 32px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
-.btn{
-    padding: 10px 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
+.btn {
+	padding: 10px 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 
-#leaderboardTable{
-    border: 1px solid #eee;
-    table-layout: fixed;
-    width: 60%;
-    margin: auto auto 20px;
+#leaderboardTable {
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 60%;
+	margin: auto auto 20px;
 }
 #leaderboardTable th {
-    font-weight: bold;
-    padding: 5px;
-    background: #efefef;
-    border: 1px solid #dddddd;
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
 }
-#leaderboardTable td{
-    padding: 5px 10px;
-    border: 1px solid #eee;
-    text-align: center;
+#leaderboardTable td {
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: center;
 }
-#leaderboardTable tbody tr:nth-child(odd){
-    background: #fff;
+#leaderboardTable tbody tr:nth-child(odd) {
+	background: #fff;
 }
-#leaderboardTable tbody tr:nth-child(even){
-    background: #F7F7F7;
+#leaderboardTable tbody tr:nth-child(even) {
+	background: #f7f7f7;
 }
