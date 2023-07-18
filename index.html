@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Spiders</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
-    <script src="scripts/mapManager.js"></script>
-    <script src="scripts/spriteManager.js"></script>
-    <script src="scripts/entity.js"></script>
-    <script src="scripts/eventsManager.js"></script>
-    <script src="scripts/physicManager.js"></script>
-    <script src="scripts/soundManager.js"></script>
-    <script src="scripts/gameManager.js"></script>
-    <script src="scripts/leaderboard.js"></script>
-</head>
-<body>
-<div id="enter-username">
-    <form action="main.html" method="get" id="form" onsubmit="saveUsername(this)">
-        <label>
-            <h1>Enter your name:</h1><br>
-            <input class="btn" placeholder="Username" name = "username" required><br>
-        </label>
-        <input class="btn" type="submit" value="Ввод">
-    </form>
-</div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Spiders</title>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link
+			rel="icon"
+			href="./assets/images/favicon-spider-insect.png"
+			type="image/x-icon"
+		/>
+		<script src="scripts/mapManager.js"></script>
+		<script src="scripts/spriteManager.js"></script>
+		<script src="scripts/entity.js"></script>
+		<script src="scripts/eventsManager.js"></script>
+		<script src="scripts/physicManager.js"></script>
+		<script src="scripts/soundManager.js"></script>
+		<script src="scripts/gameManager.js"></script>
+		<script src="scripts/leaderboard.js"></script>
+	</head>
+	<body>
+		<div id="enter-username">
+			<form
+				action="main.html"
+				method="get"
+				id="form"
+				onsubmit="saveUsername(this)"
+			>
+				<label>
+					<h1>Enter your name:</h1>
+					<br />
+					<input
+						class="btn"
+						placeholder="Username"
+						name="username"
+						required
+					/><br />
+				</label>
+				<input class="btn" type="submit" value="Ввод" />
+			</form>
+		</div>
+	</body>
 </html>
